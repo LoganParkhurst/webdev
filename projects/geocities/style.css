@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: skyblue;
+  }
+  .top{
+    background: rgb(63,251,249);
+    background: radial-gradient(circle, rgba(63,251,249,0.9923319669664741) 0%, rgba(127,70,252,1) 100%);
+    
+  }
+  .music-box{
+    background-color: black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    color: white;
+    padding: .75em;
+    z-index: 999;
+  }
+  .welcome-img{
+    position: absolute;
+    right: 10rem;
+    top: 12rem;
+    width: 20%;
+  }
+  .text{
+    border: solid;
+    background: rgb(63,251,249);
+  background: radial-gradient(circle, rgba(63,251,249,0.9923319669664741) 0%, rgba(127,70,252,1) 100%);
+    padding: 1em;
+    text-align: center;
+  }
+  .game1{
+    padding: 1.5rem;
+    margin: 0rem;
+    color: #fafbfb;
+    width: 100%;
+    display:block;
+    position: absolute;
+    left: 10em;
+  }
+  .anime1{
+    padding: 1.5rem;
+    margin: 0rem;
+    color: #fafbfb;
+    width: 100%;
+    display:block;
+    position: absolute;
+    left: 35em;
+  }
+  .center {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
