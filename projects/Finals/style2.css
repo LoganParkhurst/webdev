@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: grey;
+}
+
+.top-banner {
+    position: absolute;
+    left: 28%;
+    background-color: ghostwhite;
+    border: .5em black solid;
+    border-radius: 1em;
+
+    text-align: center;
+
+    margin: 1em;
+    padding: 1rem;
+}
+
+.gallary {
+    padding-top: 15rem;
+    padding-left: 7em;
+
+    display: flex;
+    gap: 5em;
+    flex-wrap: wrap;
+}
+
+.image-slot {
+    background-color: ghostwhite;
+    height: 20rem;
+    width: 20rem;
+
+    border: 12px black solid;
+    border-radius: 1em;
+}
+
+.info {
+    padding: 2.5rem;
+    width: 50%;
+    margin: 1em auto;
+
+    border: 0.25em black solid;
+    border-radius: .75rem;
+
+    background-color: rgb(163, 163, 163);
+}
