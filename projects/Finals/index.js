@@ -19,7 +19,12 @@ toolbar.addEventListener('click', e => {
     }
 
     if (e.target.id === 'save') {
-        ctx.save();
+        console.log(canvas.toDataURL());
+        const link = document.createElement('a');
+        link.download = 'download.png';
+        link.href = canvas.toDataURL();
+        link.click();
+        link.delete;
     }
 
     if (e.target.id === 'back') {
@@ -38,12 +43,9 @@ toolbar.addEventListener('change', e => {
     
 });
 
-function save() {
-	var anchor = document.createElement("a");
-	anchor.href = canvas.toDataURL("image/png");
-	anchor.download = "new image.png";
-	anchor.click();	
-};
+function DownloadCanvasAsImage(){
+	
+}
 
 const draw = (e) => {
     if(!isPainting) {
